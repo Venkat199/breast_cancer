@@ -1,3 +1,7 @@
 pickle
 flask == 0.12.2
 sklearn == 0.24.2
+Jinja2==2.10.1
+gunicorn==19.9.0
+certifi==2019.11.28
+itsdangerous==1.1.0
