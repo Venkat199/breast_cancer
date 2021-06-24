@@ -1,5 +1,5 @@
 from flask import Flask,redirect,url_for,render_template,request
-import pickle
+import pickle5  as pickle
 from sklearn.neighbors import KNeighborsClassifier
 app=Flask(__name__)
 model = pickle.load(open('breastcancer_model.sav','rb'))
